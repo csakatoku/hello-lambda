@@ -1,6 +1,6 @@
-(ns hello-lambda.core)
+(ns hello_lambda.core
+  (:gen-class
+   :methods [^:static [handler [String] String]]))
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(defn -handler [s]
+  (str "Hello " s "!"))
