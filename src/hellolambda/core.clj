@@ -1,4 +1,4 @@
-(ns hello_lambda.core
+(ns hellolambda.core
   (:gen-class
    :implements [com.amazonaws.services.lambda.runtime.RequestStreamHandler])
   (:require [clojure.data.json :as json]
